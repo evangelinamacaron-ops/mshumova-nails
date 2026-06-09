@@ -31,11 +31,16 @@ button {
 
 button:hover {
     background-color: #b84f83;
-}
-.carousel img {
-    transition: transform 0.2s ease;
+.carousel {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    padding: 10px;
 }
 
-.carousel img:hover {
-    transform: scale(1.05);
+.carousel img {
+    height: 150px;   /* 👈 ВОТ ЭТО РАЗМЕР */
+    border-radius: 15px;
+    cursor: pointer;
+    flex: 0 0 auto;
 }
