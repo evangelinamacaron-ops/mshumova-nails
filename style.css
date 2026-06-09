@@ -32,3 +32,10 @@ button {
 button:hover {
     background-color: #b84f83;
 }
+.carousel img {
+    transition: transform 0.2s ease;
+}
+
+.carousel img:hover {
+    transform: scale(1.05);
+}
