@@ -40,7 +40,7 @@ button:hover {
 }
 
 .carousel img {
-    height: 150px;
+    height: 250px;
     border-radius: 15px;
     cursor: pointer;
     flex: 0 0 auto;
