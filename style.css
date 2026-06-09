@@ -1,5 +1,10 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+}
     background-color: #fff7fb;
     color: #333;
     margin: 0;
