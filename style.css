@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Inter', sans-serif;
     background-color: #fff7fb;
     color: #333;
     margin: 0;
@@ -10,6 +10,8 @@ body {
 h1 {
     color: #d46a9c;
     margin-top: 40px;
+    font-family: 'Playfair Display', serif;
+}
 }
 
 p {
