@@ -1,10 +1,5 @@
 body {
-    font-family: 'Inter', sans-serif;
-}
-
-h1 {
-    font-family: 'Playfair Display', serif;
-}
+    font-family: Arial, sans-serif;
     background-color: #fff7fb;
     color: #333;
     margin: 0;
@@ -34,19 +29,4 @@ button {
 
 button:hover {
     background-color: #b84f83;
-}
-.carousel {
-    display: flex;
-    overflow-x: auto;
-    gap: 10px;
-    padding: 10px;
-    scroll-snap-type: x mandatory;
-}
-
-.carousel img {
-    height: 200px;
-    border-radius: 15px;
-    cursor: pointer;
-    scroll-snap-align: start;
-    flex: 0 0 auto;
 }
